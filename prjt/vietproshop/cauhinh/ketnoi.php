@@ -10,3 +10,4 @@ if(isset($conn)){
 else{
 	die("kết nối thất bại".mysqli_connect_error());
 } ?>
+ 
