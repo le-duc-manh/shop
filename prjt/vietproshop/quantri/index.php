@@ -47,10 +47,6 @@ if(isset($_POST['submit'])){
                 <div class="login-panel panel panel-default">
                     <div class="panel-heading">Đăng nhập hệ thống quản trị</div>
                     <div class="panel-body">
-                        <?php 
-                        if(!isset($_SESSION['email'])){
-
-                         ?>
                         <form method="post" role="form">
                             <fieldset>
                                 <div class="form-group">
@@ -69,12 +65,6 @@ if(isset($_POST['submit'])){
                                 <input type="reset" name="resset" value="Làm mới" class="btn btn-primary" />							
                             </fieldset>
                         </form>
-                        <?php 
-
-                        }else{ 
-                            header('location: quantri.php');
-                        } 
-                        ?>
                     </div>
                 </div>
             </div><!-- /.col-->
